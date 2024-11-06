@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  margin: 0; /* Remove default margin */
+}
+
+#quote-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Take full width of the column */
+  max-width: 400px; /* Limit max width for larger screens */
+}
+
+blockquote {
+  font-size: 1.5em;
+  color: #333;
+}
+
+blockquote-footer {
+  font-size: 1.2em;
+  color: #666;
+}
